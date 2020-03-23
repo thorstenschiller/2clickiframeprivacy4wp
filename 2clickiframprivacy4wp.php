@@ -10,10 +10,6 @@
 ?>
 <?php
 add_action('wp_enqueue_scripts','2click_init');
-
-function 2click_init() {
-    wp_enqueue_script( '2click_init', plugins_url( 'dist/2ClickIframePrivacy.min.js', __FILE__ ));
-}
 ?>
 <style type="text/css">
 div.privacy-msg p {
