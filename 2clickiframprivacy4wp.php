@@ -30,11 +30,3 @@ div.privacy-msg p {
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', _2ClickIframePrivacy.init(''));
 </script>
-<?php
-function torque_hello_world_shortcode( $atts ) {
-   $a = shortcode_atts( array(
-      'name' => 'world'
-   ), $atts );
-   return 'Hello ' . $a['name'] . !';
-}
-?>
